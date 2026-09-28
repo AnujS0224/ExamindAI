@@ -1,0 +1,47 @@
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+*.env
+**/.env
+**/.env.*
+application-local.properties
+application-*.local.properties
+**/application-local.properties
+**/application-*.local.properties
+
+# Java / Maven build output
+target/
+**/target/
+*.class
+*.jar
+*.war
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+.factorypath
+**/.classpath
+**/.project
+**/.settings/
+**/.factorypath
+
+# Node modules / Frontend build
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+build/
+**/build/
+*.log
+**/logs/
+
+# Video / Upload files
+uploads/
+**/uploads/
+recordings/
+**/recordings/

@@ -1,0 +1,23 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Secrets & Local Overrides
+application-local.properties
+application-*.local.properties
+.env
+*.env
+
+# IDE Files
+.classpath
+.project
+.settings/
+.factorypath
+.idea/
+*.iml
+.vscode/
+
+# Logs & Uploads
+logs/
+*.log
+uploads/
+recordings/
